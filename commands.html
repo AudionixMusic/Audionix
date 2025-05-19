@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Audionix Commands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wgth@700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1e1b2e;
+      color: #e4e6eb;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: #8e6fe7;
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+    .command {
+      background: #2c2940;
+      border-left: 5px solid #8e6fe7;
+      margin-bottom: 20px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(142, 111, 231, 0.2);
+    }
+    .command-name {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+    .command-description {
+      margin-top: 5px;
+      color: #d3cfe5;
+    }
+    a.back-link {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      color: #8e6fe7;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Music Commands</h1>
+
+    <div class="command">
+      <div class="command-name">/play &lt;url&gt;</div>
+      <div class="command-description">
+        Plays music from a YouTube or SoundCloud URL.
+      </div>
+    </div>
+    <div class="command">
+      <div class="command-name">/search &lt;query&gt;</div>
+      <div class="command-description">Searches YouTube and SoundCloud for the given keywords and shows the top results.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/select &lt;number&gt;</div>
+      <div class="command-description">Selects a song from the previous search results by number.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/showqueue</div>
+      <div class="command-description">Displays the current song queue.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/pause</div>
+      <div class="command-description">Pauses the currently playing audio.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/unpause</div>
+      <div class="command-description">Resumes the paused audio.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/stop</div>
+      <div class="command-description">Stops playback and clears the queue.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/mute</div>
+      <div class="command-description">Mutes the bot's audio in the voice channel.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/unmute</div>
+      <div class="command-description">Unmutes the bot's audio in the voice channel.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/volume &lt;1-100&gt;</div>
+      <div class="command-description">Sets the playback volume between 1% and 100%.</div>
+    </div>
+    <div class="command">
+      <div class="command-name">/loop</div>
+      <div class="command-description">Toggles loop mode for the currently playing track.</div>
+    </div>
+
+    <a href="index.html" class="back-link">← Back to Home</a>
+  </div>
+</body>
+</html>
