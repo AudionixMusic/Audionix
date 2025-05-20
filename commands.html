@@ -58,7 +58,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>Music Commands</h1>
+    <h1>Audionix Commands</h1>
 
     <div class="command">
       <div class="command-name">/play &lt;url&gt;</div>
@@ -66,46 +66,58 @@
         Plays music from a YouTube or SoundCloud URL.
       </div>
     </div>
-    <div class="command">
-      <div class="command-name">/search &lt;query&gt;</div>
-      <div class="command-description">Searches YouTube and SoundCloud for the given keywords and shows the top results.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/select &lt;number&gt;</div>
-      <div class="command-description">Selects a song from the previous search results by number.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/showqueue</div>
-      <div class="command-description">Displays the current song queue.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/pause</div>
-      <div class="command-description">Pauses the currently playing audio.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/unpause</div>
-      <div class="command-description">Resumes the paused audio.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/stop</div>
-      <div class="command-description">Stops playback and clears the queue.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/mute</div>
-      <div class="command-description">Mutes the bot's audio in the voice channel.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/unmute</div>
-      <div class="command-description">Unmutes the bot's audio in the voice channel.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/volume &lt;1-100&gt;</div>
-      <div class="command-description">Sets the playback volume between 1% and 100%.</div>
-    </div>
-    <div class="command">
-      <div class="command-name">/loop</div>
-      <div class="command-description">Toggles loop mode for the currently playing track.</div>
-    </div>
+<div class="command">
+  <div class="command-name">/play &lt;url or keywords&gt;</div>
+  <div class="command-description">Plays music from a YouTube URL or keyword search.</div>
+</div>
+<div class="command">
+  <div class="command-name">/playnext &lt;url or keywords&gt;</div>
+  <div class="command-description">Plays the specified track next, bypassing the queue.</div>
+</div>
+<div class="command">
+  <div class="command-name">/search &lt;query&gt;</div>
+  <div class="command-description">Search YouTube for a song and list top results.</div>
+</div>
+<div class="command">
+  <div class="command-name">/showqueue</div>
+  <div class="command-description">Displays the current music queue.</div>
+</div>
+<div class="command">
+  <div class="command-name">/pause</div>
+  <div class="command-description">Pauses the current track.</div>
+</div>
+<div class="command">
+  <div class="command-name">/unpause</div>
+  <div class="command-description">Resumes the paused track.</div>
+</div>
+<div class="command">
+  <div class="command-name">/stop</div>
+  <div class="command-description">Stops the music, clears the queue, and disconnects.</div>
+</div>
+<div class="command">
+  <div class="command-name">/loop</div>
+  <div class="command-description">Toggles loop mode for continuous playback.</div>
+</div>
+<div class="command">
+  <div class="command-name">/volume &lt;1-100&gt;</div>
+  <div class="command-description">Sets the playback volume.</div>
+</div>
+<div class="command">
+  <div class="command-name">/mute</div>
+  <div class="command-description">Mutes the bot's audio.</div>
+</div>
+<div class="command">
+  <div class="command-name">/unmute</div>
+  <div class="command-description">Unmutes the bot's audio.</div>
+</div>
+<div class="command">
+  <div class="command-name">/setchannel</div>
+  <div class="command-description">Admins only: Restricts bot usage to this channel.</div>
+</div>
+<div class="command">
+  <div class="command-name">/clearchannel</div>
+  <div class="command-description">Admins only: Removes channel restriction.</div>
+</div>
 
     <a href="index.html" class="back-link">← Back to Home</a>
   </div>
